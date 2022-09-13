@@ -8,6 +8,9 @@ import gel from './images/gel.png'
 import healthStatus from './images/health-status.png'
 import twigxSyntax from './images/twigx-syntax.png'
 import twigxBundle from './images/twigx-bundle.png'
+import products from './images/products.png'
+import team from './images/team.png'
+import techStack from './images/tech-stack.png'
 
 import { default as customTheme } from "./src/theme";
 import CenterLayout from './src/components/center-layout'
@@ -64,6 +67,8 @@ export const theme = customTheme;
 
 ### Something about team
 
+<Image src={team} size="75%" style={{backgroundPosition: 'top'}} />
+
 - Michal Klimt as a product owner and UX/Design Manager
 - Tomas Litera, me, as a Design System Lead
 - Adam Kudrna as a UI Developer
@@ -76,6 +81,8 @@ export const theme = customTheme;
 ---
 
 ### Something about Techstack
+
+<Image src={techStack} size="85%" style={{backgroundPosition: 'top'}} />
 
 - GitHub
 - Lerna + Nx => Monorepo
@@ -112,33 +119,25 @@ Short story about what I have learned during a development of Design System from
 
 ---
 
-<Image src={circles} size="65%" style={{backgroundPosition: 'top'}} />
+<Image src={circles} size="45%" style={{backgroundPosition: 'top'}} />
 
 ---
 
-### How we begun
+### How it begun
 
----
-
-- demand for new product design
-- demand for product redesigns
-- demand for shareable components in design
+<ul>
+  <Appear>
+    <li>demand for new product design</li>
+    <li>demand for product redesigns</li>
+    <li>demand for shareable components in design</li>
+  </Appear>
+</ul>
 
 ---
 
 #### Vast portfolio of products
 
-- Jobs.cz
-- Prace.cz
-- Seduo.cz
-- Teamio.cz
-- Atmoskop.cz
-- Pracezarohem.cz/Pracazarogiem.pl
-- Techloop.cz
-- Jobote.cz
-- Arnold.cz
-- Profesia.sk
-- Almamedia.com
+<Image src={products} size="85%" style={{backgroundPosition: 'top'}} />
 
 ---
 
@@ -175,7 +174,9 @@ One product, one design, one technology
 - Nucleus
 - Orbit
 
-https://designsystemsrepo.com/design-systems/
+<Resource>
+  <Link to="https://designsystemsrepo.com/design-systems/" />
+</Resource>
 
 ---
 
@@ -194,6 +195,11 @@ Multiple "themes" of one design
 Multiple products with multiple designs
 
 <Image src={gel} size="65%" style={{backgroundPosition: 'top'}} />
+
+<Resource>
+  <Link to="https://gel.westpacgroup.com.au/" />
+</Resource>
+
 
 ---
 
@@ -223,21 +229,33 @@ Close cooperation of Designer and Developer
 
 ---
 
+💬
+
 > For the first time, there was a “holistic view” of the elements, of all their possible combinations, and it was “easy” for me and my colleagues to spot inconsistencies, detect side effects, and find duplications and common patterns.
 
-http://www.didoo.net/2018/02/from-zero-to-cosmos-part-1/
+<Resource>
+  <Link to="http://www.didoo.net/2018/02/from-zero-to-cosmos-part-1/" />
+</Resource>
 
 ---
+
+💬
 
 > We were the ones telling designers that sometimes their designs were not consistent, or there were similar UI elements that could be reused instead of creating new ones, or that they were not taking into account some edge cases or problems with different languages.
 
-http://www.didoo.net/2018/02/from-zero-to-cosmos-part-2/
+<Resource>
+  <Link to="http://www.didoo.net/2018/02/from-zero-to-cosmos-part-2/" />
+</Resource>
 
 ---
 
+💬
+
 > Everyone was starting to see visible, tangible improvements: modularisation of components, reusability of code & components, increased speed of development, and a better visual consistency & overall quality of the application.
 
-http://www.didoo.net/2018/02/from-zero-to-cosmos-part-3/
+<Resource>
+  <Link to="http://www.didoo.net/2018/02/from-zero-to-cosmos-part-3/" />
+</Resource>
 
 ---
 
@@ -249,13 +267,15 @@ Supernova.io
 
 design-system-as-a-service platform.
 
----
-
-- multibrand support
-- integration with Figma
-- documentation
-- component health status page
-- exporters
+<ul>
+  <Appear>
+    <li>multibrand support</li>
+    <li>integration with Figma</li>
+    <li>documentation</li>
+    <li>component health status page</li>
+    <li>exporters</li>
+  </Appear>
+</ul>
 
 ---
 
@@ -267,9 +287,13 @@ design-system-as-a-service platform.
 
 Great page but...
 
-- manuall updates
-- no automatization
-- lack of rules or definitions (healthy vs unhealthy)
+<ul>
+  <Appear>
+    <li>manuall updates</li>
+    <li>no automatization</li>
+    <li>lack of rules or definitions (healthy vs unhealthy)</li>
+  </Appear>
+</ul>
 
 ---
 
