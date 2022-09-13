@@ -2,6 +2,12 @@ import { Notes, Head, Appear, Image } from "mdx-deck";
 import lmcLogo from './images/lmc-logo.png'
 import frontendisti from './images/frontendisti.jpg'
 import circles from './images/design-system-circels.svg'
+import multibrand from './images/multibrand.png'
+import volkswagen from './images/volkswagen-group.png'
+import gel from './images/gel.png'
+import healthStatus from './images/health-status.png'
+import twigxSyntax from './images/twigx-syntax.png'
+import twigxBundle from './images/twigx-bundle.png'
 
 import { default as customTheme } from "./src/theme";
 import CenterLayout from './src/components/center-layout'
@@ -110,13 +116,252 @@ Short story about what I have learned during a development of Design System from
 
 ---
 
----
+### How we begun
 
 ---
 
----
+- demand for new product design
+- demand for product redesigns
+- demand for shareable components in design
 
 ---
+
+#### Vast portfolio of products
+
+- Jobs.cz
+- Prace.cz
+- Seduo.cz
+- Teamio.cz
+- Atmoskop.cz
+- Pracezarohem.cz/Pracazarogiem.pl
+- Techloop.cz
+- Jobote.cz
+- Arnold.cz
+- Profesia.sk
+- Almamedia.com
+
+---
+
+#### Existing UI libraries
+
+- Jobs UI
+- Seduo UI
+- Teamio UI
+
+---
+
+### The Multibrand
+
+<Image src={multibrand} size="65%" style={{backgroundPosition: 'top'}} />
+
+---
+
+<Image src={volkswagen} size="65%" style={{backgroundPosition: 'top'}} />
+
+---
+
+#### Single brand
+
+One product, one design, one technology
+
+- Apple Human Interface Design
+- Google Material Design
+- Microsoft Fluent
+- Shopify Polaris
+- Ant Design
+- IBM Carbon
+- Adobe Spectrum
+- Attlasian Design System
+- Nucleus
+- Orbit
+
+https://designsystemsrepo.com/design-systems/
+
+---
+
+#### Theming
+
+Multiple "themes" of one design
+
+- light or dark mode
+- switch to high contrast
+- repaint the component
+
+---
+
+#### The real multi-brand
+
+Multiple products with multiple designs
+
+<Image src={gel} size="65%" style={{backgroundPosition: 'top'}} />
+
+---
+
+### Tips and Tricks
+
+---
+
+#### Product vs Project
+
+The design system must not be a project.
+
+**It MUST be a product.**
+
+> The key information is that for design system to work, it has to be product development and it has to be approached that way.
+> It's a long-term journey that doesn't end.
+
+---
+
+#### Design vs Development
+
+- Design System vs UI library
+- UX/Designer vs Developer
+
+Design -> UI library
+
+Close cooperation of Designer and Developer
+
+---
+
+> For the first time, there was a “holistic view” of the elements, of all their possible combinations, and it was “easy” for me and my colleagues to spot inconsistencies, detect side effects, and find duplications and common patterns.
+
+http://www.didoo.net/2018/02/from-zero-to-cosmos-part-1/
+
+---
+
+> We were the ones telling designers that sometimes their designs were not consistent, or there were similar UI elements that could be reused instead of creating new ones, or that they were not taking into account some edge cases or problems with different languages.
+
+http://www.didoo.net/2018/02/from-zero-to-cosmos-part-2/
+
+---
+
+> Everyone was starting to see visible, tangible improvements: modularisation of components, reusability of code & components, increased speed of development, and a better visual consistency & overall quality of the application.
+
+http://www.didoo.net/2018/02/from-zero-to-cosmos-part-3/
+
+---
+
+### Documentation
+
+---
+
+Supernova.io
+
+design-system-as-a-service platform.
+
+---
+
+- multibrand support
+- integration with Figma
+- documentation
+- component health status page
+- exporters
+
+---
+
+#### Component Health Status
+
+<Image src={healthStatus} size="65%" style={{backgroundPosition: 'top'}} />
+
+---
+
+Great page but...
+
+- manuall updates
+- no automatization
+- lack of rules or definitions (healthy vs unhealthy)
+
+---
+
+#### Exporters
+
+Figma -> Supernova -> GitHub repository
+
+- design tokens
+- icons
+
+Designers are responsible for release of design updates -> "commit & push"
+
+---
+
+### Architecture
+
+---
+
+#### Common UI library
+
+Spirit Design System -> Jobs Design System
+
+Common UI library -> Product UI library
+
+---
+
+#### Packages
+
+- design-tokens
+- icons
+- web
+- web-react
+- web-twig
+
+---
+
+#### Typescript
+
+system in the system
+
+defining stable component API using props and types
+
+---
+
+#### JSX in Twig
+
+<Image src={twigxSyntax} size="80%" style={{backgroundPosition: 'top'}} />
+
+---
+
+<Image src={twigxBundle} size="80%" style={{backgroundPosition: 'top'}} />
+
+---
+
+#### Style/System Props
+
+Be defensive but allow custom modifications
+
+- UNSAFE_className
+- UNSAFE_style
+
+https://react-spectrum.adobe.com/react-spectrum/styling.html
+
+---
+
+#### Zero to Hero configuration
+
+Vite
+
+---
+
+### Back to the Future
+
+---
+
+We are missing any kind of measurement.
+
+Adoption rate.
+Usage of components.
+If the components are deprecated and its health.
+Missing props and lack of features of the components.
+Candidates for a shared component and adoption to Spirit.
+
+---
+
+Technological challenges
+
+CSS-in-JS, React Native Apps and design tokens exported in JavaScript
+
+---
+
+Design System is a product that supports other Products and let them grow.
 
 ---
 
@@ -131,5 +376,3 @@ Short story about what I have learned during a development of Design System from
 </Resource>
 
 ---
-
-# Resources
