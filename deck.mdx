@@ -11,6 +11,17 @@ import twigxBundle from './images/twigx-bundle.png'
 import products from './images/products.png'
 import team from './images/team.png'
 import techStack from './images/tech-stack.png'
+import youtubeDanisko from './images/youtube-danisko.png'
+import jobsUi from './images/jobs-ui.png'
+import seduoUi from './images/seduo-ui.png'
+import teamioUi from './images/teamio-ui.png'
+import supernova from './images/supernova.png'
+import figmaRelease from './images/figma-release.png'
+import tests from './images/tests.png'
+import systemProps from './images/system-props.png'
+import demo from './images/demo.png'
+import vite from './images/vite.jpg'
+import spirit from './images/spirit.png'
 
 import { default as customTheme } from "./src/theme";
 import CenterLayout from './src/components/center-layout'
@@ -48,24 +59,31 @@ export const theme = customTheme;
 
 <CenterLayout>
 
-### Context
+## Context
 
 </CenterLayout>
 
 ---
 
-### Something about me
+<CenterLayout>
 
-- started with PHP with little bit of JavaScript
-- worked with AWS and Serverless
-- played with Node.js and React
-- now working on a Design System
+### 🙋‍♂️ Something about me
 
-=> Fullstack Pirate
+</CenterLayout>
+
+<ul>
+  <Appear>
+    <li>started with PHP with little bit of JavaScript</li>
+    <li>worked with AWS and Serverless</li>
+    <li>played with Node.js and React</li>
+    <li>now working on a Design System</li>
+    <li>=> Fullstack Pirate</li>
+  </Appear>
+</ul>
 
 ---
 
-### Something about team
+### 👨‍👨‍👦‍👦 Something about team
 
 <Image src={team} size="75%" style={{backgroundPosition: 'top'}} />
 
@@ -80,7 +98,7 @@ export const theme = customTheme;
 
 ---
 
-### Something about Techstack
+### 🛠️ Something about Techstack
 
 <Image src={techStack} size="85%" style={{backgroundPosition: 'top'}} />
 
@@ -101,21 +119,17 @@ export const theme = customTheme;
 
 ---
 
-### What it is going to be about
+## What it is going to be about
 
-Short story about what I have learned during a development of Design System from Scratch
+> Short story about what I have learned during a development of Design System
 
 ---
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/PaSwiE5UQA4"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+<Image src={youtubeDanisko} size="85%" style={{backgroundPosition: 'top'}} />
+
+<Resource>
+  <Link to="https://www.youtube.com/embed/PaSwiE5UQA4" />
+</Resource>
 
 ---
 
@@ -123,7 +137,7 @@ Short story about what I have learned during a development of Design System from
 
 ---
 
-### How it begun
+### 🎬 How it started
 
 <ul>
   <Appear>
@@ -135,33 +149,53 @@ Short story about what I have learned during a development of Design System from
 
 ---
 
-#### Vast portfolio of products
+#### Portfolio of products
 
 <Image src={products} size="85%" style={{backgroundPosition: 'top'}} />
 
 ---
 
-#### Existing UI libraries
-
-- Jobs UI
-- Seduo UI
-- Teamio UI
+#### 🎨 Existing UI libraries
 
 ---
 
-### The Multibrand
+##### Jobs UI
 
-<Image src={multibrand} size="65%" style={{backgroundPosition: 'top'}} />
-
----
-
-<Image src={volkswagen} size="65%" style={{backgroundPosition: 'top'}} />
+<Image src={jobsUi} size="85%" style={{backgroundPosition: 'top'}} />
 
 ---
 
-#### Single brand
+##### Seduo UI
 
-One product, one design, one technology
+<Image src={seduoUi} size="85%" style={{backgroundPosition: 'top'}} />
+
+---
+
+##### Teamio UI
+
+<Image src={teamioUi} size="85%" style={{backgroundPosition: 'top'}} />
+
+---
+
+<CenterLayout>
+
+### 🤹‍♂️ The Multibrand
+
+</CenterLayout>
+
+---
+
+<Image src={multibrand} size="75%" style={{backgroundPosition: 'top'}} />
+
+---
+
+<Image src={volkswagen} size="75%" style={{backgroundPosition: 'top'}} />
+
+---
+
+#### 🥇 Single brand
+
+**One product, one design, one technology**
 
 - Apple Human Interface Design
 - Google Material Design
@@ -180,17 +214,21 @@ One product, one design, one technology
 
 ---
 
-#### Theming
+#### 💅 Theming
 
 Multiple "themes" of one design
 
-- light or dark mode
-- switch to high contrast
-- repaint the component
+<ul>
+  <Appear>
+    <li>light or dark mode</li>
+    <li>switch to high contrast</li>
+    <li>repaint the component</li>
+  </Appear>
+</ul>
 
 ---
 
-#### The real multi-brand
+#### 🏅 The real multi-brand
 
 Multiple products with multiple designs
 
@@ -200,10 +238,13 @@ Multiple products with multiple designs
   <Link to="https://gel.westpacgroup.com.au/" />
 </Resource>
 
-
 ---
 
-### Tips and Tricks
+<CenterLayout>
+
+### 💫 Tips and Tricks
+
+</CenterLayout>
 
 ---
 
@@ -218,14 +259,16 @@ The design system must not be a project.
 
 ---
 
-#### Design vs Development
+#### 👩‍🎨 Design vs Development 👨‍💻
 
-- Design System vs UI library
-- UX/Designer vs Developer
-
-Design -> UI library
-
-Close cooperation of Designer and Developer
+<ul>
+  <Appear>
+    <li>Design System vs UI library</li>
+    <li>UX/Designer vs Developer</li>
+    <li>Design => UI library</li>
+    <li>Close cooperation of Designer and Developer</li>
+  </Appear>
+</ul>
 
 ---
 
@@ -259,13 +302,17 @@ Close cooperation of Designer and Developer
 
 ---
 
-### Documentation
+<CenterLayout>
+
+### 📚 Documentation
+
+</CenterLayout>
 
 ---
 
-Supernova.io
+#### 💥 Supernova
 
-design-system-as-a-service platform.
+**design-system-as-a-service platform**
 
 <ul>
   <Appear>
@@ -277,13 +324,23 @@ design-system-as-a-service platform.
   </Appear>
 </ul>
 
+<Resource>
+  <Link to="http://supernova.io/" />
+</Resource>
+
 ---
 
-#### Component Health Status
+<Image src={supernova} size="65%" style={{backgroundPosition: 'top'}} />
+
+---
+
+#### 🚑 Component Health Status
 
 <Image src={healthStatus} size="65%" style={{backgroundPosition: 'top'}} />
 
 ---
+
+#### ❗
 
 Great page but...
 
@@ -297,48 +354,76 @@ Great page but...
 
 ---
 
-#### Exporters
+#### 🛳 Exporters
 
-Figma -> Supernova -> GitHub repository
+Figma => Supernova => GitHub repository => Package => App
 
 - design tokens
 - icons
 
-Designers are responsible for release of design updates -> "commit & push"
+👨‍🎨 => 👨‍💻
+
+> Designers are responsible for release of design updates aka "release & publish"
 
 ---
 
-### Architecture
+<Image src={figmaRelease} size="75%" style={{backgroundPosition: 'top'}} />
+
+---
+
+<CenterLayout>
+
+### 🏗️ Architecture
+
+</CenterLayout>
 
 ---
 
 #### Common UI library
 
-Spirit Design System -> Jobs Design System
+<CenterLayout>
 
-Common UI library -> Product UI library
+Spirit Design System => Jobs Design System
+
+</CenterLayout>
+
+<CenterLayout>
+Common UI library => Product UI library
+</CenterLayout>
+
+<Resource>
+  <Link to="https://github.com/lmc-eu/spirit-design-system" />
+</Resource>
 
 ---
 
 #### Packages
 
-- design-tokens
-- icons
-- web
-- web-react
-- web-twig
+Monorepo
+
+<ul>
+  <Appear>
+    <li>design-tokens - <i>design variables</i></li>
+    <li>icons - <i>svg assets and react icons</i></li>
+    <li>web - <i>styles and JS functions</i></li>
+    <li>web-react - <i>react components</i></li>
+    <li>web-twig - <i>twig components</i></li>
+  </Appear>
+</ul>
 
 ---
 
-#### Typescript
+#### 🛡️ Typescript
 
-system in the system
+**system in the system**
 
 defining stable component API using props and types
 
+<img src={tests} />
+
 ---
 
-#### JSX in Twig
+#### JSX in Twig templates
 
 <Image src={twigxSyntax} size="80%" style={{backgroundPosition: 'top'}} />
 
@@ -348,44 +433,67 @@ defining stable component API using props and types
 
 ---
 
-#### Style/System Props
+#### 🚦 Style/System Props
+
+<img src={systemProps} />
 
 Be defensive but allow custom modifications
 
 - UNSAFE_className
 - UNSAFE_style
 
-https://react-spectrum.adobe.com/react-spectrum/styling.html
+
+
+<Resource>
+  <Link to="https://react-spectrum.adobe.com/react-spectrum/styling.html" />
+</Resource>
 
 ---
 
-#### Zero to Hero configuration
+#### 🚀 Zero to Hero configuration
 
-Vite
-
----
-
-### Back to the Future
+<img src={vite} />
 
 ---
 
-We are missing any kind of measurement.
-
-Adoption rate.
-Usage of components.
-If the components are deprecated and its health.
-Missing props and lack of features of the components.
-Candidates for a shared component and adoption to Spirit.
+<Image src={demo} size="80%" style={{backgroundPosition: 'top'}} />
 
 ---
 
-Technological challenges
-
-CSS-in-JS, React Native Apps and design tokens exported in JavaScript
+### 🏎️ Back to the Future
 
 ---
 
-Design System is a product that supports other Products and let them grow.
+### 🕵️‍♂️ Missing
+
+<ul>
+  <Appear>
+    <li>measurement</li>
+    <li>adoption rate</li>
+    <li>usage of components</li>
+    <li>deprecation and health</li>
+    <li>missing props and lack of features of the components</li>
+    <li>candidates for a shared component and adoption to Spirit</li>
+  </Appear>
+</ul>
+
+---
+
+### 🤺 Technological challenges
+
+<ul>
+  <Appear>
+    <li>CSS-in-JS</li>
+    <li>React Native Apps</li>
+    <li>Next.js Apps</li>
+    <li>Styled components</li>
+    <li>design tokens exported in JavaScript</li>
+  </Appear>
+</ul>
+
+---
+
+> Design System is a product that supports other Products and let them grow.
 
 ---
 
@@ -400,3 +508,5 @@ Design System is a product that supports other Products and let them grow.
 </Resource>
 
 ---
+
+<Image src={spirit} size="80%" style={{backgroundPosition: 'top'}} />
